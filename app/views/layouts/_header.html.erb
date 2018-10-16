@@ -1,0 +1,32 @@
+<header class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+			<a class="navbar-brand" href="https://pue.uke.gov.pl"><img src=<%= asset_path(t('.logo_file')) %> alt="PUE"></a>
+    </div>
+
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to pomoc_path do %>
+              <span class="glyphicon glyphicon-edit"></span>&nbsp;Pomoc
+              <% end %>
+            </li>
+            <li><%= link_to pomoc_faq_path do %>
+              <span class="glyphicon glyphicon-log-out"></span>&nbsp;Faq
+              <% end %>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
