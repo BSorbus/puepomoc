@@ -1,8 +1,5 @@
 <div class="container-fluid">
-  <div class="row">
-    <h2 class="center index-title"><%= t('.title') %></h2>
-  </div>
-
+  <br>
 	<div class="panel-group" id="myaccordion">
 
 	  <!-- Pomoc 1 -->
@@ -37,7 +34,7 @@
             <div class="panel-heading">
               <div class="panel-title">
                 <span class="glyphicon glyphicon-log-in">&nbsp;</span>
-                <span>Logowanie się do Platformy Usług Elektronicznych (PUE)</span>
+                <span>Logowanie się do PUE</span>
                 <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
               </div>
             </div>
@@ -53,54 +50,6 @@
       </div> <!-- /col-sm-11 col-sm-offset-1 -->
     </div> <!-- /row -->
 
-	  <!-- Pomoc 2.1 -->
-    <div class="row">
-      <div class="col-sm-11 col-sm-offset-1">
-        <div class="panel panel-pomoc">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_021" >
-            <div class="panel-heading">
-              <div class="panel-title">
-                <span class="glyphicon glyphicon-user">&nbsp;</span>
-                <span>Pomoc 2.1</span>
-                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
-              </div>
-            </div>
-          </a>
-          <div id="collapse_021" class="panel-collapse collapse">
-            <div class="panel-body">
-
-              <%= render 'pomoc_021' %>
-
-            </div> <!-- /panel-body -->
-          </div> <!-- /id="collapse_021" -->
-        </div> <!-- /panel -->
-      </div> <!-- /col-sm-11 col-sm-offset-1 -->
-    </div> <!-- /row -->
-
-	  <!-- Pomoc 2.2 -->
-    <div class="row">
-      <div class="col-sm-11 col-sm-offset-1">
-        <div class="panel panel-pomoc">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_022" >
-            <div class="panel-heading">
-              <div class="panel-title">
-                <span class="glyphicon glyphicon-user">&nbsp;</span>
-                <span>Pomoc 2.2</span>
-                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
-              </div>
-            </div>
-          </a>
-          <div id="collapse_022" class="panel-collapse collapse">
-            <div class="panel-body">
-
-              <%= render 'pomoc_022' %>
-
-            </div> <!-- /panel-body -->
-          </div> <!-- /id="collapse_022" -->
-        </div> <!-- /panel -->
-      </div> <!-- /col-sm-11 col-sm-offset-1 -->
-    </div> <!-- /row -->
-
 	  <!-- Pomoc 3 -->
     <div class="row">
       <div class="col-sm-12">
@@ -109,7 +58,7 @@
             <div class="panel-heading">
               <div class="panel-title">
                 <span class="glyphicon glyphicon-user">&nbsp;</span>
-                <span>Pomoc 3</span>
+                <span>Zakładanie konta dla firmy / jednostki / organizacji na PUE</span>
                 <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
               </div>
             </div>
@@ -124,6 +73,246 @@
         </div> <!-- /panel -->
       </div> <!-- /col-sm-11 col-sm-offset-1 -->
     </div> <!-- /row -->
-  </div> 
+ 
+    <!-- Pomoc 4 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_040" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Zmiany kontekstu pracy na PUE</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_040" class="panel-collapse collapse">
+            <div class="panel-body">
 
+              <%= render 'pomoc_040' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_040" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 5 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_050" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Wyszukiwanie formularzy sprawozdawczych</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_050" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_050' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_050" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 6 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_060" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Wypełnianie formularzy sprawozdawczych</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_060" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_060' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_060" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 7 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_070" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Tworzenie kopii roboczej formularza</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_070" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_070' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_070" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 8 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_080" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Pobranie Urzędowego Poświadczenia Odbioru (UPO)</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_080" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_080' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_080" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 9 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_090" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Podpisywanie formularzy</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_090" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_090' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_090" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 10 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_100" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Dodawanie przedstawicie do organizacji</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_100" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_100' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_100" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 11 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_110" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Export formularza sprawozdawczego do pliku Excel</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_110" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_110' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_110" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 12 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_120" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Import danych z pliku Excel do formularza sprawozdawczego</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_120" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_120' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_120" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+    <!-- Pomoc 13 -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-pomoc">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#myaccordion" href="#collapse_130" >
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span class="glyphicon glyphicon-user">&nbsp;</span>
+                <span>Włączanie / wyłączanie funkcji kreatora</span>
+                <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+              </div>
+            </div>
+          </a>
+          <div id="collapse_130" class="panel-collapse collapse">
+            <div class="panel-body">
+
+              <%= render 'pomoc_130' %>
+
+            </div> <!-- /panel-body -->
+          </div> <!-- /id="collapse_130" -->
+        </div> <!-- /panel -->
+      </div> <!-- /col-sm-11 col-sm-offset-1 -->
+    </div> <!-- /row -->
+
+  </div> <!--/id="myaccordion -->
 </div>  <!-- /container -->
